@@ -1,6 +1,6 @@
 /* SK Guard service worker - cache app shell only.
    ห้าม cache Supabase API แบบถาวร: ข้อมูลล็อก/จุดตรวจต้องสดเสมอ */
-const CACHE_NAME = 'sk-guard-v1';
+const CACHE_NAME = 'sk-guard-v2';
 const APP_SHELL = [
   './',
   './index.html',

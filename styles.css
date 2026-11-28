@@ -24,6 +24,16 @@ button{cursor:pointer;border:0;border-radius:10px;padding:12px 16px;font-size:16
 .btn-secondary{background:#e2e8f0;color:#0f172a}
 .btn-danger{background:var(--red);color:#fff}
 .btn-ghost{background:transparent;color:#fff;border:1px solid rgba(255,255,255,.7);padding:6px 10px;font-size:13px}
+.btn-big{min-height:56px;font-size:18px}
+.btn-save:enabled{background:var(--green)}
+.btn-save:disabled{background:#94a3b8}
+.user-name{font-size:20px;font-weight:800;margin:4px 0}
+.clock{font-size:18px;font-weight:700;margin:4px 0;color:var(--teal)}
+.far-msg{background:#fee2e2;border:1px solid #fca5a5;color:#991b1b;border-radius:12px;padding:14px;font-size:17px;font-weight:800;line-height:1.5;margin:12px 0}
+.today-item{display:flex;justify-content:space-between;align-items:center;gap:10px;padding:12px 0;border-bottom:1px solid var(--border)}
+.today-item:last-child{border-bottom:0}
+.today-item b{font-size:15px}
+#report-map{height:320px;border-radius:12px;border:1px solid var(--border);z-index:1}
 .btn-row{display:flex;gap:8px;margin-top:10px}
 .btn-row button{flex:1}
 .badge{display:inline-block;padding:3px 10px;border-radius:999px;font-size:13px;font-weight:700}
@@ -35,9 +45,6 @@ button{cursor:pointer;border:0;border-radius:10px;padding:12px 16px;font-size:16
 .banner.warn{background:#fef3c7;border:1px solid #fcd34d;color:#78350f}
 .banner.error{background:#fee2e2;border:1px solid #fca5a5;color:#7f1d1d}
 .banner.info{background:#cffafe;border:1px solid #67e8f9;color:#164e63}
-.shift-progress{background:#e2e8f0;border-radius:999px;height:14px;overflow:hidden;margin:8px 0}
-.shift-progress>div{background:var(--teal);height:100%;width:0%;transition:width .3s}
-#shift-done-list p,#shift-remaining-list p{margin:4px 0;font-size:14px}
 .cp-item{display:flex;justify-content:space-between;align-items:center;gap:10px;padding:12px 0;border-bottom:1px solid var(--border)}
 .cp-item:last-child{border-bottom:0}
 .cp-item b{font-size:15px}
